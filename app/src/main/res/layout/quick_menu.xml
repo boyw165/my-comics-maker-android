@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_background"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageButton
+        android:id="@+id/photo_picker"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/btn_photo_picker"/>
+
+    <ImageButton
+        android:id="@+id/stickers_store"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/btn_stickers_store"/>
+</LinearLayout>
